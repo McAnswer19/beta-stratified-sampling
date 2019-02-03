@@ -1,5 +1,6 @@
 # this is a testbed for testing hypotheses relating to which alogrithm is best for updates. 
 
+require(HDInterval)
 
 reflection <- function(x){    # this one is obvious... 
   
@@ -15,7 +16,6 @@ reflection <- function(x){    # this one is obvious...
   
 }
 
-require(HDInterval)
 
 key <- 0.95**(1/3)
 x <- c(0:100000)/100000       
