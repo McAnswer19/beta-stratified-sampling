@@ -35,7 +35,7 @@ compute_posterior_intervals <- function(confidence, observation_vector){    # la
          a <- a * 2**(level - tree_height)   
          b <- b * 2**(level - tree_height)
   
-        # pseudocounts for each side of a cell. Each XXX by one
+        # pseudocounts for each side of a cell. Each outcome type increments them by one. 
         left_base <- length(observation_vector[left_endpoint:midpoint])
         right_base <- length(observation_vector[(midpoint+1):right_endpoint])
         
