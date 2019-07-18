@@ -1,5 +1,4 @@
 require(HDInterval)
-# CLEAN UP! 
 
 reflection <- function(x){    # this method reverse the HDI interval. So if it was originally 0.7-0.9, it will return 0.1-0.3
   
