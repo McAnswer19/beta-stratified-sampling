@@ -10,4 +10,4 @@ For a complete explanation of the algorithm, please take a look at "Recursive Be
 
 2. Do several trial runs to compare the algorithm's performance against the Metropolis–Hastings algorithm on a known dirchlet distribution. 
 
-3. Compute the Bayesian information criterion (BIC) for each cell as well as well as the overall tree. It is likely that a little knowledge of information theory may make the difference in how expectations are calculated. 
+3. Compute the Bayesian information criterion (BIC) for each cell as well as the overall tree. It is likely that a little knowledge of information theory may make the difference in how expectations are calculated. 
