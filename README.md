@@ -3,11 +3,11 @@ An undergraduate poster project I did involving a method of stratified sampling 
 
 For a complete explanation of the algorithm, please take a look at "Recursive Beta Poster Presentation.pdf." It is mostly just a simple recursive application of the beta distribution, but there are a few nuances that make more sense with some knowledge of Bayesianism. 
 
+I've also added a python port of the code with a few extra features that allow sampling from the tree in various different ways. This is my preferred version as it has the most features and it runs noticibly faster in Python, which allows for easier experimentation.
+
 
 ## Additional goals (when I finally have enough time): 
 
-1. Port the project to python. The algorithms's flow will be much more obvious with a couple of objects. Might also want to consider using cython for speeding up computation on the credibillity intervals. 
+1. Do several systematic trial runs to compare the algorithm's performance against the Metropolis–Hastings algorithm on a known dirchlet distribution. The best way to do this is with the PYMC3 library, which I am still trying to self-teach. 
 
-2. Do several trial runs to compare the algorithm's performance against the Metropolis–Hastings algorithm on a known dirchlet distribution. 
-
-3. Compute the Bayesian information criterion (BIC) for each cell as well as the overall tree. It is likely that a little knowledge of information theory may make the difference in how expectations are calculated. 
+2. Compute the Bayesian information criterion (BIC) for each cell as well as the overall tree. It is likely that a little knowledge of information theory may make the difference in how expectations are calculated. 
